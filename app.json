@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "ai-photo-booth-mobile",
+    "slug": "ai-photo-booth-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "aiphotoboothmobile",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.aiphotoboothmobile"
+    },
+
+    "plugins": [
+      "expo-router"
+    ],
+
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
